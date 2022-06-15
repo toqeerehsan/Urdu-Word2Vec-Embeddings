@@ -1,6 +1,6 @@
 # Urdu Word2Vec Embeddings
 
-Word2Vec embeddings for Urdu language trained on a plain text corpus of 220 million tokens. The respository contains the trained embeddings with dimenstions size of 100, 200 and 300. Both binary (.bin) and non-binary trained models are included.
+Word2Vec embeddings are trained on a plain Urdu corpus of 220 million tokens. The respository contains the trained embeddings with dimenstion size of 100, 200 and 300. Both binary (.bin) and non-binary trained models are included.
 
 **Usage**
 ```
