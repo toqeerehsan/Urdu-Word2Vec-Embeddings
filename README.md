@@ -25,7 +25,7 @@ vocabulary = model.wv.vocab # Vocabulary size is 125,622
 ```
 **Citation**
 
-If you use Urdu Word2Vec embeddings in your research word then please cite the following paper:
+If you use Urdu Word2Vec embeddings in your research then please cite the following paper:
 ```
 @article{ehsan2021improving,
   title={Improving Phrase Chunking by using Contextualized Word Embeddings for a Morphologically Rich Language},
