@@ -21,7 +21,7 @@ for i in model.wv.most_similar([u'گھر']): print( i[0])
 ```
 **Vocabulary**
 ```
-vocabulary = model.wv.vocab
+vocabulary = model.wv.vocab # Vocabulary size is 125,622
 ```
 **Citation**
 
