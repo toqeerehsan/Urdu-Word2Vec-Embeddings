@@ -1,19 +1,18 @@
 # Urdu Word2Vec Embeddings
 
-Word2Vec embeddings are trained on a plain Urdu corpus of 220 million tokens. The respository contains the trained embeddings with dimenstion size of 100, 200 and 300. Both binary (.bin) and non-binary trained models are included.
+Word2Vec embeddings are trained on a plain Urdu corpus of 220 million tokens. The respository contains the trained embeddings with dimenstion size of 100, 200 and 300. The vocabulary size is 125,622. 
+
+**Download**
+this is test [test](https://github.com)
 
 **Usage**
 ```
 import gensim
 from gensim.models import Word2Vec
 ```
-**Load an existing model**
+**Load a pre-trained model**
 ```
-model = gensim.models.Word2Vec.load("Urdu_Word2Vec/urdu_220m_wv_100d", binary=False)
-```
-**or**
-```
-model = gensim.models.Word2Vec.load("Urdu_Word2Vec/urdu_220m_wv_100d.bin", binary=True)
+model = gensim.models.Word2Vec.load("urdu_220m_wv_100d.bin", binary=True)
 ```
 **Extract a list of similar words against the given word**
 ```
